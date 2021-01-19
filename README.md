@@ -1,24 +1,34 @@
-# todo-app
+# a node-vue todo-app
 
-## Project setup
+## App setup
 ```
+cd > server
+npm install
+&
+cd > client
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### To start the server
 ```
-npm run serve
+cd > server
+$ npm run serve
+- mongo starts on http://localhost:4000/
+
 ```
 
-### Compiles and minifies for production
+### To start the client
 ```
-npm run build
+cd > client
+$ npm run serve
+
 ```
 
-### Lints and fixes files
+### To do tests
 ```
-npm run lint
+cd > server
+$ npm run test
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Enjoy :)
